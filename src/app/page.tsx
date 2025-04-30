@@ -13,12 +13,12 @@ export default function Home() {
         />
 
         <p className="text-center text-2xl/6 w-full">
-          🚧 Site under construction 🚧
+          🚧 Site em construção 🚧
         </p>
       </main>
       <footer className="row-start-3 flex flex-wrap items-center justify-center">
         <p>
-          Copyright © {new Date().getFullYear()} Wedby. All rights reserved.
+          Copyright © {new Date().getFullYear()} Wedby. Todos os direitos reservados.
         </p>
       </footer>
     </div>
