@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://wedby.com.br/sitemap.xml
