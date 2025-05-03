@@ -1,5 +1,11 @@
 import Image from "next/image";
 import { version } from "../../package.json";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Home",
+  description: "Página inicial",
+};
 
 export default function Home() {
   return (

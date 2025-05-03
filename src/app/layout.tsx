@@ -13,8 +13,8 @@ const interMono = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Wedby",
-  description: "Wedby is a platform for creating technology solutions",
+  title: "Wedby technology solutions",
+  description: "A Wedby é uma empresa de tecnologia que desenvolve micro SaaS para resolver problemas reais com simplicidade, inovação e eficiência.",
 };
 
 export default function RootLayout({
