@@ -8,7 +8,7 @@ new_version=$(npm version patch)
 npm run build
 
 git add .
-git commit -m "Deploy"
+git commit -m "Deploy $new_version"
 
 git push
 
