@@ -3,12 +3,16 @@
 clear
 
 start_time=$(date +%s)
+
+git add .
+git commit -m "Deploying a new version"
+
 new_version=$(npm version patch)
 
 npm run build
 
 git add .
-git commit -m "Deploy $new_version"
+git commit -m "Deploy v$new_version"
 
 git push
 
