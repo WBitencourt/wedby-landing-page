@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { version } from "../../package.json";
 
 export default function Home() {
   return (
@@ -17,8 +18,8 @@ export default function Home() {
         </p>
       </main>
       <footer className="row-start-3 flex flex-wrap items-center justify-center">
-        <p>
-          Copyright © {new Date().getFullYear()} Wedby. Todos os direitos reservados.
+        <p className="text-center text-xs sm:text-sm/6">
+          Copyright © {new Date().getFullYear()} Wedby. Todos os direitos reservados. v{version}
         </p>
       </footer>
     </div>
