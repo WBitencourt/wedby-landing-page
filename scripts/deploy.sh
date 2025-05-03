@@ -26,7 +26,7 @@ echo
 echo
 echo
 echo "Total execution global time: $execution_time seconds"
-echo
+echo "New version: $new_version"
 echo
 echo
 echo
