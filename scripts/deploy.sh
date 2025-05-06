@@ -3,7 +3,7 @@
 clear
 
 start_time=$(date +%s)
-
+#Teste
 git add .
 git commit -m "Deploying a new version"
 
