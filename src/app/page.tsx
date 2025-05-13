@@ -13,7 +13,7 @@ export default function Home() {
       <main className="flex flex-col gap-[32px] row-start-2 items-center justify-center sm:items-start">
         <Image
           src="/wedby-logo.svg"
-          alt="Wedby logo"
+          alt="Wedby"
           width={500}
           height={500}
           priority
