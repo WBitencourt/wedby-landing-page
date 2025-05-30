@@ -1,0 +1,20 @@
+{
+  "greeting": {
+    "name": "Hello, {name}!"
+  },
+  "pages": {
+    "home": {
+      "title": "Wedby",
+      "construction": "Site under construction"
+    }
+  },
+  "header": {
+    "select": {
+      "placeholder": "Select language",
+      "label": "Language"
+    }
+  },
+  "footer": {
+    "copyright": "Copyright © 2025. All rights reserved."
+  }
+}
